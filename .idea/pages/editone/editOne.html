@@ -1,0 +1,22 @@
+<template>
+    <div id="div-edit-one" style="display: none;">
+        <h3>Edit a Car or a Member</h3>
+        <label for="text-for-id-editcar">Id</label>&nbsp;<input id="id-editcar" />
+        <button id="btn-find-car-to-edit">Find item to edit</button>
+
+        <br /> <br />
+        <div style=" display: flex; justify-content:left;">
+            <p style="width:6em;display: inline;">Id</p>
+            <p id="edit-car-id"></p>
+        </div>
+        <div><label for="edit-input-brand" style="min-width: 6em;">Brand</label>&nbsp;<input id="edit-input-brand" />
+        </div>
+        <div><label for="edit-input-model" style="min-width: 6em;">Model</label>&nbsp;<input id="edit-input-model" />
+        </div>
+        <div><label for="edit-input-price-pr-day" style="min-width: 6em;">Price pr day</label>&nbsp;<input type="number"
+                                                                                                           id="edit-input-price-pr-day" /></div>
+        <br />
+        <button id="btn-submit-changes">Submit changes</button>
+        <p>Use one of the two GET pages to verify that "something" was added</p>
+    </div>
+</template>
